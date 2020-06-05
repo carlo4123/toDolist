@@ -32,6 +32,7 @@ app.get("/", function(req, res){
           break;
         case 6:
           day = "Saturday";
+          console.log(day)
         break;
         default:
       }
